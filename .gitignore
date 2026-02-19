@@ -1,11 +1,11 @@
 
 ~*
 
-
 *.gbr
 *.drl
 kicad/**/*-backups
 kicad/**/jlcpcb
 kicad/**/gerbers
+kicad/**/.history
 **/fp-info-cache
 *.bak
