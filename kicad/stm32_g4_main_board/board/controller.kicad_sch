@@ -1,0 +1,100 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "67912e74-a6f4-44de-a1ed-2871c7cd90a5")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 207.01 45.72)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4011940c-5776-4c7a-a8cf-ba2dbe1d4119")
+	)
+	(bus
+		(pts
+			(xy 207.01 55.88) (xy 207.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7adc2b1e-5582-4e2f-b851-57a8a6de1bf5")
+	)
+	(wire
+		(pts
+			(xy 195.58 48.26) (xy 204.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec9c479-7e6e-4371-9cd6-5d510b04c283")
+	)
+	(bus
+		(pts
+			(xy 205.74 41.91) (xy 207.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46fa436-20b8-4c9e-9dc8-553753dffa3b")
+	)
+	(bus
+		(pts
+			(xy 209.55 55.88) (xy 207.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de240339-df50-4ca6-9e06-76c54c66a7ec")
+	)
+	(label "M1.INHA"
+		(at 195.58 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c08dee16-0caf-461f-95cf-cd83a57bf81e")
+	)
+	(hierarchical_label "M2{MCTRL}"
+		(shape bidirectional)
+		(at 209.55 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "425ef0f0-6e98-4d18-bfbb-de5052585691")
+	)
+	(hierarchical_label "M1{MCTRL}"
+		(shape bidirectional)
+		(at 209.55 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92554b06-3c0c-4ee0-a347-0aa38b63d3bc")
+	)
+	(hierarchical_label "M3{MCTRL}"
+		(shape bidirectional)
+		(at 209.55 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec12447d-d7c7-4f9a-acd2-ae91efa83f3b")
+	)
+)

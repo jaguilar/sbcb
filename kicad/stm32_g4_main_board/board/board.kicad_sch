@@ -1,0 +1,328 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "be33a253-a895-4341-ac4c-f55475734dc2")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 177.8 54.61) (xy 189.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7f7af4-3f61-476d-8390-99ef2a50dd74")
+	)
+	(bus
+		(pts
+			(xy 177.8 50.8) (xy 199.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe9b9d3-c69c-4524-9079-4202d6ed8c2a")
+	)
+	(bus
+		(pts
+			(xy 189.23 66.04) (xy 199.39 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d7346e-8cb2-48f6-ba24-3443e79d8376")
+	)
+	(bus
+		(pts
+			(xy 189.23 36.83) (xy 199.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afdf42c-331f-4436-8d28-0e879777a49d")
+	)
+	(bus
+		(pts
+			(xy 189.23 54.61) (xy 189.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c73512f-0116-48c7-a7a3-7af78cbc136d")
+	)
+	(bus
+		(pts
+			(xy 189.23 46.99) (xy 189.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9765e4-a736-45a8-bc33-1f0f16c2ad70")
+	)
+	(bus
+		(pts
+			(xy 177.8 46.99) (xy 189.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4c8736-af8f-44a7-94c7-f0630bbfddcc")
+	)
+	(sheet
+		(at 199.39 33.02)
+		(size 15.24 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c")
+		(property "Sheetname" "Motor Channel"
+			(at 199.39 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_channel.kicad_sch"
+			(at 199.39 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCTRL}" bidirectional
+			(at 199.39 36.83 180)
+			(uuid "7ab342a4-7aa8-4048-be3f-17349b9004d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 46.99)
+		(size 15.24 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5c903e03-aea7-41ae-86fb-f44fc0c1cdbb")
+		(property "Sheetname" "Motor Channel1"
+			(at 199.39 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_channel.kicad_sch"
+			(at 199.39 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCTRL}" bidirectional
+			(at 199.39 50.8 180)
+			(uuid "836b7a9a-8fd2-4343-a305-5bfc66935cce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 62.23)
+		(size 15.24 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7222f6b0-274c-4715-84c9-323480ec97a9")
+		(property "Sheetname" "Motor Channel2"
+			(at 199.39 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_channel.kicad_sch"
+			(at 199.39 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCTRL}" bidirectional
+			(at 199.39 66.04 180)
+			(uuid "17b33d7f-f4b8-4277-a805-6212ffe7f169")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 43.18)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b83b4a70-168d-43f7-945a-cdc4517d015c")
+		(property "Sheetname" "Controller"
+			(at 154.94 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 154.94 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "M1{MCTRL}" bidirectional
+			(at 177.8 46.99 0)
+			(uuid "7affc89c-f7ab-4a95-b1b6-459ceb46f3a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2{MCTRL}" bidirectional
+			(at 177.8 50.8 0)
+			(uuid "6aa49e78-7ca3-4f14-a70a-d99f453c7393")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M3{MCTRL}" bidirectional
+			(at 177.8 54.61 0)
+			(uuid "50bd1cf0-026c-499a-a9d4-80f0d11918a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

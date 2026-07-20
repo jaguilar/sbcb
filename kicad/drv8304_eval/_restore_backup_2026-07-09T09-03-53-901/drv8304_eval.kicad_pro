@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.2,
-          "width": 0.47
+          "drill": 2.0,
+          "height": 8.0,
+          "width": 4.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -60,32 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "annular_width|143900000|57537500|0866bdcf-9cf7-484b-930c-dc2e5bdc14be|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "annular_width|149700000|57537500|dd200055-4087-4727-8230-9bf229d02af7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "hole_clearance|143900000|58147500|0866bdcf-9cf7-484b-930c-dc2e5bdc14be|fee52116-42f6-4a03-8f12-c3630d4ca5af",
-          ""
-        ],
-        [
-          "hole_clearance|144100000|58147500|0866bdcf-9cf7-484b-930c-dc2e5bdc14be|0bdf728d-f013-4345-8308-b7879925d09b",
-          ""
-        ],
-        [
-          "hole_clearance|149500000|58147500|dd200055-4087-4727-8230-9bf229d02af7|dad00d2a-4f26-4886-9510-36a6bbd5ecec",
-          ""
-        ],
-        [
-          "hole_clearance|149700000|58147500|dd200055-4087-4727-8230-9bf229d02af7|30cd2415-0ac6-4da4-9e64-419e88510178",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -125,13 +116,13 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -142,6 +133,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -168,9 +160,9 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -254,6 +246,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -474,7 +470,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -511,15 +506,15 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "lcsc",
-      "easyeda2kicad"
+      "jaguilar"
     ],
     "pinned_symbol_libs": [
-      "LCSC"
+      "jaguilar",
+      "EasyEDA"
     ]
   },
   "meta": {
-    "filename": "board.kicad_pro",
+    "filename": "drv8304_eval.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -544,9 +539,18 @@
         "wire_width": 6
       },
       {
-        "name": "Signal",
+        "clearance": 0.127,
+        "name": "Fine",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "tuning_profile": ""
+      },
+      {
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "tuning_profile": ""
@@ -577,19 +581,19 @@
       {
         "netclass": "Signal",
         "pattern": "*SCLK"
+      },
+      {
+        "netclass": "Fine",
+        "pattern": "*half_bridge*"
       }
     ]
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -622,15 +626,33 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
         },
         {
@@ -641,33 +663,27 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -680,17 +696,11 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -724,45 +734,37 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "board.kicad_sch",
+        "filename": "drv8304_eval.kicad_sch",
         "name": "Root",
-        "uuid": "9e07615b-4f9f-46e4-a47d-26f515f86ab3"
+        "uuid": "74747308-ce22-44fa-9f28-8b5db5d05ff6"
       }
     ],
-    "used_designators": "CN1-3,U3,R1-2,NT1,C2,C8-13",
+    "used_designators": "G1,C7,C12-15",
     "variants": []
   },
   "sheets": [
     [
-      "002a37ff-53d9-4b37-9446-6576eed24c62",
+      "74747308-ce22-44fa-9f28-8b5db5d05ff6",
       "Root"
     ],
     [
-      "921f21d4-4461-4571-996b-e649e13b10a7",
-      "DRV8311_1"
+      "e490dde9-4bb4-4a80-b25c-00410bfabca6",
+      "half_bridge"
     ],
     [
-      "727e8ea7-5c0b-47a2-99f9-1a9d054019da",
-      "DRV8311_3"
+      "6533dc28-6314-46ca-b6e9-43e62e5e55fe",
+      "half_bridge1"
     ],
     [
-      "a21868e9-a12e-496e-b347-4381a152511f",
-      "DRV8311_2"
+      "e41c3a88-038f-4f96-abf3-e853ebcaa7ce",
+      "half_bridge2"
     ]
   ],
   "text_variables": {},
