@@ -58,7 +58,7 @@
 			)
 		)
 		(property "Description" "Mainstream Arm Cortex-M4 MCU 170 MHz with 512 Kbytes of Flash memory, Math Accelerator, HR Timer, High Analog level integration"
-			(at 0 0 0)
+			(at 39.624 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -94,7 +94,7 @@
 		)
 		(symbol "STM32G474MET6TR_0_0"
 			(pin passive line
-				(at 0 0 0)
+				(at 24.13 22.86 270)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -111,8 +111,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -2.54 0)
+			(pin no_connect line
+				(at 10.16 -73.66 0)
 				(length 5.08)
 				(name "PC13"
 					(effects
@@ -130,7 +130,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at 10.16 -5.08 0)
 				(length 5.08)
 				(name "PC14-OSC32_IN"
 					(effects
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at 10.16 -7.62 0)
 				(length 5.08)
 				(name "PC15-OSC32_OUT"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 0)
+				(at 10.16 -10.16 0)
 				(length 5.08)
 				(name "PF0-OSC_IN"
 					(effects
@@ -184,7 +184,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -12.7 0)
+				(at 10.16 -12.7 0)
 				(length 5.08)
 				(name "PF1-OSC_OUT"
 					(effects
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 0)
+				(at 10.16 -15.24 0)
 				(length 5.08)
 				(name "PG10-NRST"
 					(effects
@@ -219,8 +219,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -17.78 0)
+			(pin input line
+				(at 63.5 -40.64 180)
 				(length 5.08)
 				(name "M3_PHASEA_SENSE"
 					(effects
@@ -237,8 +237,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -20.32 0)
+			(pin output line
+				(at 63.5 5.08 180)
 				(length 5.08)
 				(name "M1_PHASEB_OUT"
 					(effects
@@ -255,8 +255,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -22.86 0)
+			(pin output line
+				(at 63.5 -33.02 180)
 				(length 5.08)
 				(name "M3_PHASEB_OUT"
 					(effects
@@ -273,8 +273,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -25.4 0)
+			(pin no_connect line
+				(at 10.16 -71.12 0)
 				(length 5.08)
 				(name "PC3"
 					(effects
@@ -291,8 +291,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -3.81 180)
+			(pin input line
+				(at 63.5 -5.08 180)
 				(length 5.08)
 				(name "M1_PHASEA_SENSE"
 					(effects
@@ -309,8 +309,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -6.35 180)
+			(pin input line
+				(at 63.5 -7.62 180)
 				(length 5.08)
 				(name "M1_PHASEB_SENSE"
 					(effects
@@ -327,8 +327,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -33.02 0)
+			(pin no_connect line
+				(at 10.16 -68.58 0)
 				(length 5.08)
 				(name "PA2"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -35.56 0)
+				(at 29.21 -95.25 90)
 				(length 5.08)
 				(name "VSS_1"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -38.1 0)
+				(at 29.21 22.86 270)
 				(length 5.08)
 				(name "VDD_1"
 					(effects
@@ -381,8 +381,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -40.64 0)
+			(pin no_connect line
+				(at 10.16 -66.04 0)
 				(length 5.08)
 				(name "PA3"
 					(effects
@@ -400,7 +400,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -43.18 0)
+				(at 10.16 -49.53 0)
 				(length 5.08)
 				(name "ENC2_CSN"
 					(effects
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 0)
+				(at 10.16 -39.37 0)
 				(length 5.08)
 				(name "ENC_SCLK"
 					(effects
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -48.26 0)
+				(at 10.16 -41.91 0)
 				(length 5.08)
 				(name "ENC_MISO"
 					(effects
@@ -453,8 +453,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 -78.74 90)
+			(pin input line
+				(at 63.5 -24.13 180)
 				(length 5.08)
 				(name "M2_PHASEB_SENSE"
 					(effects
@@ -471,8 +471,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 10.16 -78.74 90)
+			(pin input line
+				(at 63.5 -45.72 180)
 				(length 5.08)
 				(name "M3_PHASEB_SENSE"
 					(effects
@@ -490,7 +490,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -78.74 90)
+				(at 10.16 -20.32 0)
 				(length 5.08)
 				(name "USART1_RX"
 					(effects
@@ -507,44 +507,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -78.74 90)
-				(length 5.08)
-				(name "MOTOR_EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 -78.74 90)
-				(length 5.08)
-				(name "MOTOR_CAL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -78.74 90)
+			(pin output line
+				(at 63.5 -30.48 180)
 				(length 5.08)
 				(name "M3_PHASEA_OUT"
 					(effects
@@ -562,7 +526,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -78.74 90)
+				(at 44.45 -95.25 90)
 				(length 5.08)
 				(name "VSSA"
 					(effects
@@ -580,7 +544,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -78.74 90)
+				(at 50.8 22.86 270)
 				(length 5.08)
 				(name "VREF+"
 					(effects
@@ -598,7 +562,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 -78.74 90)
+				(at 48.26 22.86 270)
 				(length 5.08)
 				(name "VDDA"
 					(effects
@@ -615,8 +579,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 30.48 -78.74 90)
+			(pin input line
+				(at 63.5 -43.18 180)
 				(length 5.08)
 				(name "M3_PHASEC_SENSE"
 					(effects
@@ -633,8 +597,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -78.74 90)
+			(pin no_connect line
+				(at 63.5 -76.2 180)
 				(length 5.08)
 				(name "PE8"
 					(effects
@@ -651,8 +615,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 35.56 -78.74 90)
+			(pin input line
+				(at 63.5 -2.54 180)
 				(length 5.08)
 				(name "M1_PHASEC_SENSE"
 					(effects
@@ -669,8 +633,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 38.1 -78.74 90)
+			(pin no_connect line
+				(at 63.5 -88.9 180)
 				(length 5.08)
 				(name "PE10"
 					(effects
@@ -687,8 +651,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 40.64 -78.74 90)
+			(pin no_connect line
+				(at 63.5 -86.36 180)
 				(length 5.08)
 				(name "PE11"
 					(effects
@@ -705,8 +669,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 43.18 -78.74 90)
+			(pin no_connect line
+				(at 63.5 -83.82 180)
 				(length 5.08)
 				(name "PE12"
 					(effects
@@ -723,8 +687,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 45.72 -78.74 90)
+			(pin input line
+				(at 63.5 -26.67 180)
 				(length 5.08)
 				(name "M2_PHASEC_SENSE"
 					(effects
@@ -742,7 +706,7 @@
 				)
 			)
 			(pin passive line
-				(at 48.26 -78.74 90)
+				(at 10.16 -57.15 0)
 				(length 5.08)
 				(name "VBATT_SENSE"
 					(effects
@@ -759,8 +723,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -78.74 90)
+			(pin no_connect line
+				(at 63.5 -81.28 180)
 				(length 5.08)
 				(name "PE15"
 					(effects
@@ -777,8 +741,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 53.34 -78.74 90)
+			(pin no_connect line
+				(at 63.5 -78.74 180)
 				(length 5.08)
 				(name "PB10"
 					(effects
@@ -796,7 +760,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -78.74 90)
+				(at 31.75 -95.25 90)
 				(length 5.08)
 				(name "VSS_2"
 					(effects
@@ -814,7 +778,7 @@
 				)
 			)
 			(pin passive line
-				(at 63.5 -48.26 180)
+				(at 31.75 22.86 270)
 				(length 5.08)
 				(name "VDD_2"
 					(effects
@@ -831,8 +795,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -45.72 180)
+			(pin no_connect line
+				(at 63.5 -73.66 180)
 				(length 5.08)
 				(name "PB11"
 					(effects
@@ -849,8 +813,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -43.18 180)
+			(pin no_connect line
+				(at 63.5 -71.12 180)
 				(length 5.08)
 				(name "PB12"
 					(effects
@@ -867,8 +831,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -40.64 180)
+			(pin no_connect line
+				(at 63.5 -68.58 180)
 				(length 5.08)
 				(name "PB13"
 					(effects
@@ -885,8 +849,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -38.1 180)
+			(pin input line
+				(at 63.5 -21.59 180)
 				(length 5.08)
 				(name "M2_PHASEA_SENSE"
 					(effects
@@ -903,8 +867,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -35.56 180)
+			(pin no_connect line
+				(at 63.5 -66.04 180)
 				(length 5.08)
 				(name "PB15"
 					(effects
@@ -921,8 +885,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -33.02 180)
+			(pin output line
+				(at 63.5 -38.1 180)
 				(length 5.08)
 				(name "M3_nCOAST"
 					(effects
@@ -939,8 +903,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -30.48 180)
+			(pin output line
+				(at 63.5 -19.05 180)
 				(length 5.08)
 				(name "M2_nCOAST"
 					(effects
@@ -957,8 +921,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -8.89 180)
+			(pin output line
+				(at 63.5 0 180)
 				(length 5.08)
 				(name "M1_nCOAST"
 					(effects
@@ -976,7 +940,7 @@
 				)
 			)
 			(pin passive line
-				(at 63.5 -25.4 180)
+				(at 34.29 -95.25 90)
 				(length 5.08)
 				(name "VSS_3"
 					(effects
@@ -994,7 +958,7 @@
 				)
 			)
 			(pin passive line
-				(at 63.5 -22.86 180)
+				(at 34.29 22.86 270)
 				(length 5.08)
 				(name "VDD_3"
 					(effects
@@ -1011,26 +975,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -20.32 180)
-				(length 5.08)
-				(name "MOTOR_ERR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 63.5 -17.78 180)
+			(pin output line
+				(at 63.5 -13.97 180)
 				(length 5.08)
 				(name "M2_PHASEB_OUT"
 					(effects
@@ -1047,8 +993,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 63.5 -15.24 180)
+			(pin output line
+				(at 63.5 -35.56 180)
 				(length 5.08)
 				(name "M3_PHASEC_OUT"
 					(effects
@@ -1066,7 +1012,7 @@
 				)
 			)
 			(pin passive line
-				(at 63.5 -12.7 180)
+				(at 10.16 -52.07 0)
 				(length 5.08)
 				(name "ENC3_CSN"
 					(effects
@@ -1083,7 +1029,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 63.5 7.62 180)
 				(length 5.08)
 				(name "M1_PHASEA_OUT"
@@ -1102,7 +1048,7 @@
 				)
 			)
 			(pin passive line
-				(at 90.17 -39.37 180)
+				(at 10.16 -22.86 0)
 				(length 5.08)
 				(name "USART1_TX"
 					(effects
@@ -1119,7 +1065,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 63.5 2.54 180)
 				(length 5.08)
 				(name "M1_PHASEC_OUT"
@@ -1137,8 +1083,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 93.98 -10.16 180)
+			(pin output line
+				(at 63.5 -59.69 180)
 				(length 5.08)
 				(name "LED_DATA"
 					(effects
@@ -1155,8 +1101,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 93.98 -13.97 180)
+			(pin no_connect line
+				(at 63.5 -63.5 180)
 				(length 5.08)
 				(name "PA12"
 					(effects
@@ -1174,7 +1120,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 27.94 270)
+				(at 36.83 -95.25 90)
 				(length 5.08)
 				(name "VSS_4"
 					(effects
@@ -1192,7 +1138,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 27.94 270)
+				(at 36.83 22.86 270)
 				(length 5.08)
 				(name "VDD_4"
 					(effects
@@ -1210,7 +1156,7 @@
 				)
 			)
 			(pin passive line
-				(at 50.8 27.94 270)
+				(at 10.16 2.54 0)
 				(length 5.08)
 				(name "SYS_JTMS-SWDIO"
 					(effects
@@ -1228,7 +1174,7 @@
 				)
 			)
 			(pin passive line
-				(at 48.26 27.94 270)
+				(at 10.16 5.08 0)
 				(length 5.08)
 				(name "SYS_JTCK-SWCLK"
 					(effects
@@ -1245,8 +1191,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 45.72 27.94 270)
+			(pin output line
+				(at 63.5 -11.43 180)
 				(length 5.08)
 				(name "M2_PHASEA_OUT"
 					(effects
@@ -1263,8 +1209,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 43.18 27.94 270)
+			(pin no_connect line
+				(at 10.16 -76.2 0)
 				(length 5.08)
 				(name "PC10"
 					(effects
@@ -1281,8 +1227,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 40.64 27.94 270)
+			(pin no_connect line
+				(at 10.16 -78.74 0)
 				(length 5.08)
 				(name "PC11"
 					(effects
@@ -1299,8 +1245,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 38.1 27.94 270)
+			(pin no_connect line
+				(at 10.16 -81.28 0)
 				(length 5.08)
 				(name "PC12"
 					(effects
@@ -1317,8 +1263,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 35.56 27.94 270)
+			(pin no_connect line
+				(at 10.16 -83.82 0)
 				(length 5.08)
 				(name "PD0"
 					(effects
@@ -1335,8 +1281,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 27.94 270)
+			(pin no_connect line
+				(at 10.16 -86.36 0)
 				(length 5.08)
 				(name "PD1"
 					(effects
@@ -1353,8 +1299,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 30.48 27.94 270)
+			(pin no_connect line
+				(at 10.16 -88.9 0)
 				(length 5.08)
 				(name "PD2"
 					(effects
@@ -1372,7 +1318,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 27.94 270)
+				(at 10.16 0 0)
 				(length 5.08)
 				(name "SYS_JTDO-SWO"
 					(effects
@@ -1390,7 +1336,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 27.94 270)
+				(at 10.16 -46.99 0)
 				(length 5.08)
 				(name "ENC1_CSN"
 					(effects
@@ -1408,7 +1354,7 @@
 				)
 			)
 			(pin passive line
-				(at 92.71 10.16 180)
+				(at 10.16 -44.45 0)
 				(length 5.08)
 				(name "ENC_MOSI"
 					(effects
@@ -1426,7 +1372,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 27.94 270)
+				(at 10.16 -29.21 0)
 				(length 5.08)
 				(name "IMU_INT"
 					(effects
@@ -1444,7 +1390,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 27.94 270)
+				(at 10.16 -31.75 0)
 				(length 5.08)
 				(name "IMU_SDA"
 					(effects
@@ -1462,7 +1408,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 27.94 270)
+				(at 10.16 -34.29 0)
 				(length 5.08)
 				(name "IMU_SCL"
 					(effects
@@ -1479,8 +1425,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 27.94 270)
+			(pin output line
+				(at 63.5 -16.51 180)
 				(length 5.08)
 				(name "M2_PHASEC_OUT"
 					(effects
@@ -1498,7 +1444,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 27.94 270)
+				(at 39.37 -95.25 90)
 				(length 5.08)
 				(name "VSS_5"
 					(effects
@@ -1516,7 +1462,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 27.94 270)
+				(at 39.37 22.86 270)
 				(length 5.08)
 				(name "VDD_5"
 					(effects
@@ -1537,14 +1483,153 @@
 		(symbol "STM32G474MET6TR_0_1"
 			(polyline
 				(pts
-					(xy 5.08 22.86) (xy 58.42 22.86) (xy 58.42 -73.66) (xy 5.08 -73.66) (xy 5.08 22.86)
+					(xy 15.24 17.78) (xy 58.42 17.78) (xy 58.42 -90.17) (xy 15.24 -90.17) (xy 15.24 17.78)
 				)
 				(stroke
 					(width 0.1524)
 					(type solid)
 				)
 				(fill
+					(type color)
+					(color 255 250 190 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 39.37 8.89) (xy 38.1 0) (xy 39.37 -8.89) (xy 39.37 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
 					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 39.37 -10.16) (xy 38.1 -19.05) (xy 39.37 -27.94) (xy 39.37 -27.94)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 39.37 -29.21) (xy 38.1 -38.1) (xy 39.37 -46.99) (xy 39.37 -46.99)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 39.37 -55.88) (xy 38.1 -52.07) (xy 39.37 -48.26) (xy 39.37 -48.26)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "STM32G474MET6TR_1_0"
+			(pin output line
+				(at 63.5 -52.07 180)
+				(length 5.08)
+				(name "MOTOR_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 63.5 -49.53 180)
+				(length 5.08)
+				(name "MOTOR_CAL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 63.5 -54.61 180)
+				(length 5.08)
+				(name "MOTOR_nFAULT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32G474MET6TR_1_1"
+			(text "MOTOR1"
+				(at 36.83 0 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "MOTOR2"
+				(at 36.83 -19.05 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "MOTOR3\n"
+				(at 36.83 -38.1 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "MOTOR\nSHARED"
+				(at 36.83 -52.324 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 		)
