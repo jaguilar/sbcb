@@ -1664,65 +1664,38 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "Q6")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "Q2")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "Q4")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "Q12")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "Q10")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "Q8")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "Q18")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "Q16")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "Q14")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -1805,65 +1778,38 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "C11")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "C7")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "C9")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "C23")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "C21")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "C19")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "C35")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "C33")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "C31")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -2194,65 +2140,38 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "Q5")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "Q1")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "Q3")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "Q11")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "Q9")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "Q7")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "Q17")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "Q15")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "Q13")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -2475,65 +2394,38 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "R7")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "R5")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/0e2f8ed8-9a5d-4a22-bc5f-e8902057a94c/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "R6")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "R14")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "R13")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/5c903e03-aea7-41ae-86fb-f44fc0c1cdbb/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "R12")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/1ac06b24-548c-4c7a-9b71-6e01ef09cc87"
 					(reference "R21")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/9fac298e-8e21-4ee5-9d54-421ad09aecab"
 					(reference "R20")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/7222f6b0-274c-4715-84c9-323480ec97a9/feff06c2-fcc2-44ca-af85-fe406c2e998d"
 					(reference "R19")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)

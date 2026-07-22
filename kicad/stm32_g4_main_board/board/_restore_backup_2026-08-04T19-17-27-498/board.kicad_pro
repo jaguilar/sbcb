@@ -78,6 +78,10 @@
       ],
       "drc_exclusions": [
         [
+          "lib_footprint_mismatch|67000000|39500000|e5db063e-d285-478e-897f-1b1d43daac8f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_over_copper|25874999|57324999|b61452af-9ca9-4105-a5b0-43ae7dc66021|319d3d08-0219-42a5-a4a8-83c06b2ed06c",
           ""
         ],
@@ -116,7 +120,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -171,7 +175,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.0725,
         "min_via_diameter": 0.35,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -811,11 +815,7 @@
       }
     ],
     "used_designators": "D1-7,#PWR1-97,C1-57,#FLG1-3,R1-41,J1-18,NT1-6,U1-10,Q1-19,IC1,SW1-2,Y1,L1,CN1-9,TP1-22,H1-4,F1",
-    "variants": [
-      {
-        "name": "CountingCurrentParts"
-      }
-    ]
+    "variants": []
   },
   "sheets": [
     [

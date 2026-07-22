@@ -4771,6 +4771,12 @@
 		(uuid "be187ac0-921f-4ab1-b23c-5e5dbe004f01")
 	)
 	(junction
+		(at 17.78 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b79c36c-7041-4ac7-9459-60bca7fb9cc1")
+	)
+	(junction
 		(at 151.13 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4819,6 +4825,12 @@
 		(uuid "1e8324e0-640b-4c34-b108-5980d21ea506")
 	)
 	(junction
+		(at 120.65 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e872a89-8171-4a6d-83ff-bc0d2eba02f2")
+	)
+	(junction
 		(at 96.52 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4853,12 +4865,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40cf5f22-6185-4394-921a-ce11090372ca")
-	)
-	(junction
-		(at 17.78 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4abe1120-d5d6-4761-86e8-bc25999768da")
 	)
 	(junction
 		(at 96.52 29.21)
@@ -5027,12 +5033,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e32ce9e6-92f1-4963-9f19-62372cd912a5")
-	)
-	(junction
-		(at 120.65 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7412db4-4ce6-4053-9d0f-713a9b929405")
 	)
 	(junction
 		(at 109.22 135.89)
@@ -5643,7 +5643,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.62 166.37) (xy 176.53 166.37)
+			(xy 133.35 166.37) (xy 176.53 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5683,7 +5683,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.62 120.65) (xy 134.62 166.37)
+			(xy 133.35 120.65) (xy 133.35 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5763,23 +5763,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 41.91) (xy 17.78 44.45)
+			(xy 17.78 40.64) (xy 17.78 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "474a6a15-b099-4313-8a43-b179f607f358")
-	)
-	(wire
-		(pts
-			(xy 180.34 49.53) (xy 199.39 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47898ea0-c2c5-412b-999b-e3eb877a1766")
 	)
 	(wire
 		(pts
@@ -5823,6 +5813,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 49.53) (xy 199.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f112a5d-9c95-47b0-9ce6-919747fc0911")
+	)
+	(wire
+		(pts
 			(xy 233.68 127) (xy 251.46 127)
 		)
 		(stroke
@@ -5863,7 +5863,7 @@
 	)
 	(polyline
 		(pts
-			(xy 64.77 166.37) (xy 134.62 166.37)
+			(xy 64.77 166.37) (xy 133.35 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5893,7 +5893,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.62 52.07) (xy 134.62 120.65)
+			(xy 133.35 52.07) (xy 133.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6013,7 +6013,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 120.65) (xy 134.62 120.65)
+			(xy 12.7 120.65) (xy 133.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6090,16 +6090,6 @@
 			(type default)
 		)
 		(uuid "692d7169-0bc5-4da3-9070-8124f0b11753")
-	)
-	(wire
-		(pts
-			(xy 17.78 34.29) (xy 17.78 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6946e533-1502-4db3-928a-c981f6012c69")
 	)
 	(wire
 		(pts
@@ -6191,16 +6181,6 @@
 		)
 		(uuid "7a119e7c-644f-44ba-af64-b815246fea28")
 	)
-	(wire
-		(pts
-			(xy 121.92 135.89) (xy 120.65 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a79c83e-8c6c-42c4-b7e2-16788c91784c")
-	)
 	(bus
 		(pts
 			(xy 241.3 41.91) (xy 241.3 52.07)
@@ -6210,6 +6190,16 @@
 			(type default)
 		)
 		(uuid "7c73512f-0116-48c7-a7a3-7af78cbc136d")
+	)
+	(wire
+		(pts
+			(xy 175.26 54.61) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7deabdee-99b8-4392-a450-879109880b55")
 	)
 	(wire
 		(pts
@@ -6493,16 +6483,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 54.61) (xy 175.26 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed62436-214d-4bd3-96dc-752c11750a2f")
-	)
-	(wire
-		(pts
 			(xy 163.83 35.56) (xy 175.26 35.56)
 		)
 		(stroke
@@ -6513,7 +6493,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 135.89) (xy 130.81 135.89)
+			(xy 128.27 135.89) (xy 129.54 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6863,7 +6843,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 135.89) (xy 130.81 134.62)
+			(xy 129.54 135.89) (xy 129.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7073,7 +7053,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.62 12.7) (xy 134.62 52.07)
+			(xy 133.35 12.7) (xy 133.35 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7163,7 +7143,7 @@
 	)
 	(polyline
 		(pts
-			(xy 81.28 52.07) (xy 134.62 52.07)
+			(xy 81.28 52.07) (xy 133.35 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7798,9 +7778,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R34")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -7997,9 +7974,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "J4")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8330,9 +8304,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1879e6ce-4e5c-4ec6-85f8-da1ecc7a62e5")
 		(property "Reference" "J12"
-			(at 25.908 126.238 0)
+			(at 29.21 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8341,8 +8316,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2"
-			(at 25.908 128.778 0)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 29.21 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8416,9 +8391,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "J12")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8501,9 +8473,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C46")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8575,28 +8544,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 162.56 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 162.56 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ed566a0f-91b7-4cf2-a388-5b03caf39d51")
 		)
@@ -8605,16 +8552,13 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "TP18")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 125.73 135.89 90)
+		(at 124.46 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8625,7 +8569,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b3d5858-f433-4aee-818e-545fd06c656c")
 		(property "Reference" "R40"
-			(at 125.73 129.54 90)
+			(at 124.46 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8635,7 +8579,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 125.73 132.08 90)
+			(at 124.46 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8645,7 +8589,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 125.73 137.668 90)
+			(at 124.46 137.668 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8656,7 +8600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 135.89 0)
+			(at 124.46 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8667,7 +8611,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 125.73 135.89 0)
+			(at 124.46 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8688,9 +8632,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R40")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8851,9 +8792,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C57")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9093,9 +9031,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R29")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9178,9 +9113,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C36")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9342,9 +9274,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "D1")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9424,9 +9353,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "F1")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9509,9 +9435,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "D2")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9594,9 +9517,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R26")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9667,28 +9587,6 @@
 				)
 			)
 		)
-		(property "MPN" "TPS54302"
-			(at 58.42 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI"
-			(at 58.42 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "554164be-4a9e-4a83-a05b-f3f8490bdf1c")
 		)
@@ -9712,9 +9610,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "U5")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9791,9 +9686,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "H1")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9868,28 +9760,6 @@
 				)
 			)
 		)
-		(property "MPN" "USBLC6-2SC6"
-			(at 175.26 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 175.26 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "6"
 			(uuid "7d4b355a-4502-428e-85a0-ac22eadcc819")
 		)
@@ -9913,9 +9783,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "U6")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9998,9 +9865,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R27")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10239,9 +10103,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R30")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10481,9 +10342,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R35")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10573,9 +10431,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "Q19")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10734,9 +10589,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C44")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10969,9 +10821,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "H3")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11130,9 +10979,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C38")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11159,7 +11005,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-XH-B6B"
+		(property "Value" "Enc3"
 			(at 269.24 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11191,18 +11037,7 @@
 				)
 			)
 		)
-		(property "Description" "Enc3"
-			(at 256.54 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 256.54 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11236,9 +11071,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "J14")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11315,9 +11147,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "H4")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11478,9 +11307,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C43")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11563,9 +11389,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C41")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11648,9 +11471,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R31")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11741,17 +11561,6 @@
 				)
 			)
 		)
-		(property "MPN" "AP2112K-3.3TRG1(MS)"
-			(at 49.53 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "34d3e81a-d7d8-43a4-8a96-9a6bddb29c6e")
 		)
@@ -11772,9 +11581,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "U4")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11857,9 +11663,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C47")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11962,9 +11765,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "L1")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12047,9 +11847,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C39")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12211,9 +12008,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C54")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12369,9 +12163,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "H2")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12454,9 +12245,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C53")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12698,7 +12486,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 130.81 134.62 0)
+		(at 129.54 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12709,7 +12497,7 @@
 		(fields_autoplaced yes)
 		(uuid "b66e800c-398f-4d05-8d17-2f27373bd0ab")
 		(property "Reference" "#PWR096"
-			(at 130.81 138.43 0)
+			(at 129.54 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12720,7 +12508,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 130.81 129.54 0)
+			(at 129.54 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12730,7 +12518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 134.62 0)
+			(at 129.54 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12741,7 +12529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 134.62 0)
+			(at 129.54 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12752,7 +12540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 130.81 134.62 0)
+			(at 129.54 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12796,7 +12584,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-XH-B6B"
+		(property "Value" "Enc2"
 			(at 268.986 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12828,18 +12616,7 @@
 				)
 			)
 		)
-		(property "Description" "Enc2"
-			(at 256.54 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ASDF"
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 256.54 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12873,9 +12650,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "J13")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12958,9 +12732,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C55")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -13043,9 +12814,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C56")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -13161,9 +12929,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "D7")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -13324,9 +13089,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C40")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -13353,7 +13115,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-XH-B6B"
+		(property "Value" "Enc1"
 			(at 268.986 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13385,18 +13147,7 @@
 				)
 			)
 		)
-		(property "Description" "Enc1"
-			(at 268.986 120.904 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 256.54 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13430,16 +13181,13 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "J11")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 17.78 38.1 180)
+		(at 17.78 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13449,7 +13197,7 @@
 		(dnp no)
 		(uuid "db14de03-56e1-4d8c-a85c-e214c74e3823")
 		(property "Reference" "C45"
-			(at 22.225 41.783 0)
+			(at 22.225 40.513 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13459,7 +13207,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 22.352 43.942 0)
+			(at 22.352 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13469,7 +13217,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 16.8148 34.29 0)
+			(at 16.8148 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13480,7 +13228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 38.1 0)
+			(at 17.78 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13491,7 +13239,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 17.78 38.1 0)
+			(at 17.78 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,9 +13260,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C45")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -13597,9 +13342,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R32")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -13750,28 +13492,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 162.56 182.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 162.56 182.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a61cf632-cc91-46e4-a384-2438d546b183")
 		)
@@ -13780,9 +13500,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "TP19")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -14023,9 +13740,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "C37")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -14264,9 +13978,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "U7")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -14349,9 +14060,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R41")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -14434,9 +14142,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "R36")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -14508,28 +14213,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 162.56 187.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 162.56 187.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "627eb409-75ea-4606-8f1e-48592ef6e045")
 		)
@@ -14538,9 +14221,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2"
 					(reference "TP20")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)

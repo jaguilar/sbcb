@@ -52,7 +52,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000027",
+    "visible_layers": "00000000_00000000_00000000_80000027",
     "zone_display_mode": 0
   },
   "git": {
@@ -106,13 +106,13 @@
       136,
       136,
       136,
-      1373
+      136
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "M3.S",
+    "filter_text": "SOC",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_time_domain_details": false,

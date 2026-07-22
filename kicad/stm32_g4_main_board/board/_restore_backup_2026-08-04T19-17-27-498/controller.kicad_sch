@@ -5,14 +5,17 @@
 	(uuid "67912e74-a6f4-44de-a1ed-2871c7cd90a5")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:Conn_ST_STDC14"
+		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -8.89 16.51 0)
+				(at -2.54 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -22,8 +25,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "Conn_ST_STDC14"
-				(at 17.78 16.51 0)
+			(property "Value" "Conn_ARM_JTAG_SWD_10"
+				(at -2.54 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -44,7 +47,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
+			(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
 				(at -8.89 -31.75 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -55,7 +58,7 @@
 					)
 				)
 			)
-			(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
+			(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -66,7 +69,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "ST STM32 Cortex Debug Connector ARM SWD JTAG"
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -77,7 +80,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "PinHeader?2x07?P1.27mm*"
+			(property "ki_fp_filters" "PinHeader?2x05?P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -88,10 +91,10 @@
 					)
 				)
 			)
-			(symbol "Conn_ST_STDC14_0_1"
+			(symbol "Conn_ARM_JTAG_SWD_10_0_1"
 				(rectangle
-					(start -10.16 15.24)
-					(end 10.16 -15.24)
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -100,13 +103,100 @@
 						(type background)
 					)
 				)
+				(rectangle
+					(start -2.794 -12.7)
+					(end -2.286 -11.684)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.254 12.7)
+					(end 0.254 11.684)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.254 -12.7)
+					(end 0.254 -11.684)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 9.144 2.286)
+					(end 10.16 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -0.254)
+					(end 9.144 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.794)
+					(end 9.144 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "Conn_ST_STDC14_1_1"
-				(pin no_connect line
-					(at -10.16 5.08 0)
+			(symbol "Conn_ARM_JTAG_SWD_10_1_1"
+				(rectangle
+					(start 9.144 -5.334)
+					(end 10.16 -4.826)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "VTref"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -121,11 +211,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -10.16 2.54 0)
+				(pin bidirectional line
+					(at 12.7 0 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "SWDIO/TMS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -141,9 +230,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 17.78 270)
+					(at 0 -15.24 90)
 					(length 2.54)
-					(name "VCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -158,10 +247,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
+				(pin output line
+					(at 12.7 2.54 180)
 					(length 2.54)
-					(name "JTMS/SWDIO"
+					(name "SWCLK/TCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -176,9 +265,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -17.78 90)
+				(pin passive line
+					(at 0 -15.24 90)
 					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -194,10 +284,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 7.62 180)
+				(pin input line
+					(at 12.7 -2.54 180)
 					(length 2.54)
-					(name "JCLK/SWCLK"
+					(name "SWO/TDO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -212,11 +302,11 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -17.78 90)
+				(pin no_connect line
+					(at -10.16 0 0)
 					(length 2.54)
 					(hide yes)
-					(name "GND"
+					(name "KEY"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -231,10 +321,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 2.54 180)
+				(pin output line
+					(at 12.7 -5.08 180)
 					(length 2.54)
-					(name "JTDO/SWO"
+					(name "NC/TDI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -249,10 +339,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -5.08 180)
+				(pin passive line
+					(at -2.54 -15.24 90)
 					(length 2.54)
-					(name "JRCLK/NC"
+					(name "GNDDetect"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -267,10 +357,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 0 180)
+				(pin open_collector line
+					(at 12.7 7.62 180)
 					(length 2.54)
-					(name "JTDI/NC"
+					(name "~{RESET}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -278,78 +368,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -17.78 90)
-					(length 2.54)
-					(name "GNDDetect"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "~{RST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "VCP_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "VCP_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1603,7 +1621,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 10.16 -83.82 0)
+					(at 10.16 -71.12 0)
 					(length 5.08)
 					(name "PA3"
 						(effects
@@ -2249,10 +2267,11 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 -71.12 0)
+				(pin no_connect line
+					(at 15.24 -71.12 0)
 					(length 5.08)
-					(name "USART1_RX"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2465,10 +2484,11 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -68.58 0)
+				(pin no_connect line
+					(at 15.24 -73.66 0)
 					(length 5.08)
-					(name "USART1_TX"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3411,7 +3431,7 @@
 		)
 		(uuid "299c7f5d-2344-4784-92dc-97de7ebb2016")
 	)
-	(text "STDC/JTAG Header"
+	(text "JTAG Header"
 		(exclude_from_sim no)
 		(at 128.27 20.066 0)
 		(effects
@@ -3554,7 +3574,13 @@
 		(uuid "69bc99e6-0bef-4a59-9276-b8ac3695d2df")
 	)
 	(junction
-		(at 125.73 71.12)
+		(at 140.97 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72f39036-597e-4f5f-868c-c99c8f1c4e29")
+	)
+	(junction
+		(at 125.73 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c08e38d-ce5c-4211-bb06-c12173134d3f")
@@ -3658,10 +3684,6 @@
 	(no_connect
 		(at 298.45 85.09)
 		(uuid "003aba9d-d098-446b-aa03-82725b1e99bc")
-	)
-	(no_connect
-		(at 139.7 50.8)
-		(uuid "07f0a1f4-0418-4ffa-bc06-1fc146169876")
 	)
 	(no_connect
 		(at 139.7 55.88)
@@ -4119,7 +4141,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 71.12) (xy 125.73 71.12)
+			(xy 124.46 68.58) (xy 125.73 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4359,16 +4381,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 71.12) (xy 127 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa1e157-dcb1-471d-ad36-a91df5a2c18b")
-	)
-	(wire
-		(pts
 			(xy 290.83 130.81) (xy 298.45 130.81)
 		)
 		(stroke
@@ -4439,16 +4451,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 151.13) (xy 298.45 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e79f839-12e6-4f44-8fd9-7956f7c948d3")
-	)
-	(wire
-		(pts
 			(xy 168.91 176.53) (xy 181.61 176.53)
 		)
 		(stroke
@@ -4486,6 +4488,16 @@
 			(type default)
 		)
 		(uuid "4578eda1-cd6e-45ea-b9af-0cda31bdafd8")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466e433b-56cc-4b5c-8d54-b31484f7b867")
 	)
 	(bus
 		(pts
@@ -4749,6 +4761,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 66.04) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f77bac-474c-4ccd-a20e-537a5c000077")
+	)
+	(wire
+		(pts
 			(xy 212.09 201.93) (xy 224.79 201.93)
 		)
 		(stroke
@@ -4819,6 +4841,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 30.48) (xy 127 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0f3604-06f6-4c2c-a277-1ebc7ce2907c")
+	)
+	(wire
+		(pts
 			(xy 351.79 96.52) (xy 363.22 96.52)
 		)
 		(stroke
@@ -4836,6 +4868,16 @@
 			(type default)
 		)
 		(uuid "7b43f25b-2eb6-4d5a-b274-06c9cc673ae1")
+	)
+	(wire
+		(pts
+			(xy 139.7 53.34) (xy 151.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba6dda4-0be0-4747-81f4-1bd4216b2430")
 	)
 	(wire
 		(pts
@@ -4976,16 +5018,6 @@
 			(type default)
 		)
 		(uuid "897075d9-9cf5-43f6-a7fd-8aa84a78ea67")
-	)
-	(wire
-		(pts
-			(xy 139.7 63.5) (xy 151.13 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898c13fb-f962-407b-9c8f-79258e75b7ad")
 	)
 	(wire
 		(pts
@@ -5149,7 +5181,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 127 71.12)
+			(xy 125.73 68.58) (xy 127 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5209,16 +5241,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 151.13 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6847494-448a-47b3-b459-398e6eadaf9d")
-	)
-	(wire
-		(pts
 			(xy 279.4 105.41) (xy 298.45 105.41)
 		)
 		(stroke
@@ -5249,23 +5271,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 124.46 71.12)
+			(xy 124.46 66.04) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "abae18ac-ac47-45c6-9552-3365f077199d")
-	)
-	(wire
-		(pts
-			(xy 139.7 60.96) (xy 151.13 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af159122-baf1-49d5-93ca-fb20326fb213")
 	)
 	(wire
 		(pts
@@ -5329,16 +5341,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 30.48) (xy 127 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b875ea-f01f-4992-aea0-26548339ecf7")
-	)
-	(wire
-		(pts
 			(xy 139.7 48.26) (xy 151.13 48.26)
 		)
 		(stroke
@@ -5356,6 +5358,16 @@
 			(type default)
 		)
 		(uuid "bb60e9f0-011e-4c60-a34d-f4fa44ddd10d")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 140.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbcc58e-278c-40e4-b721-4918767156ed")
 	)
 	(wire
 		(pts
@@ -5416,6 +5428,16 @@
 			(type default)
 		)
 		(uuid "c46719ed-e031-4e6b-9390-019c9ec8b39d")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69357ef-fcef-4856-a1ee-c50b30f20fb6")
 	)
 	(wire
 		(pts
@@ -5539,7 +5561,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 125.73 73.66)
+			(xy 125.73 68.58) (xy 125.73 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5767,16 +5789,6 @@
 		)
 		(uuid "f2e8eed4-32ae-4c55-b8c6-1665e3bcf789")
 	)
-	(wire
-		(pts
-			(xy 139.7 38.1) (xy 151.13 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f338740f-f5e9-46b8-892e-2644fab4f9e4")
-	)
 	(bus
 		(pts
 			(xy 365.76 85.09) (xy 365.76 87.63)
@@ -5789,7 +5801,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 143.51) (xy 363.22 143.51)
+			(xy 351.79 143.51) (xy 361.95 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5839,16 +5851,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 148.59) (xy 298.45 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd9d84c7-cb1e-4504-a34a-a9c7b0551d64")
-	)
-	(wire
-		(pts
 			(xy 212.09 196.85) (xy 224.79 196.85)
 		)
 		(stroke
@@ -5876,16 +5878,6 @@
 			(type default)
 		)
 		(uuid "ff04bc1a-b4ef-4ff0-901d-5944d8d0de38")
-	)
-	(label "SWDIO"
-		(at 151.13 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "028e9e45-5793-4671-9fa1-c5dd520d62dd")
 	)
 	(label "I2C1.SDA"
 		(at 287.02 115.57 0)
@@ -5957,26 +5949,6 @@
 		)
 		(uuid "226b1582-b86b-44da-8765-3f1685c64fbf")
 	)
-	(label "~{RESET}"
-		(at 151.13 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "297c2f8e-1e3b-4a5b-b2ca-5fd78c3ef4ca")
-	)
-	(label "USART1_TX"
-		(at 280.67 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b491b16-4a19-40f3-9ddb-e29cad369c2a")
-	)
 	(label "M3.~{FAULT}"
 		(at 363.22 133.35 180)
 		(effects
@@ -6028,7 +6000,7 @@
 		(uuid "4b218ce2-e6b5-4bb2-ac34-014fbde5aaab")
 	)
 	(label "LED_DATA"
-		(at 363.22 143.51 180)
+		(at 361.95 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6087,15 +6059,15 @@
 		)
 		(uuid "6678ea17-a6f4-4ee2-964d-e1525d419fc8")
 	)
-	(label "USART1_TX"
-		(at 151.13 63.5 180)
+	(label "SWO"
+		(at 151.13 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "692f0c62-2ae1-4040-8f79-c98843303c50")
+		(uuid "6b5240ef-114d-4f51-95be-90487dcf9241")
 	)
 	(label "M2.SOA"
 		(at 354.33 104.14 0)
@@ -6146,6 +6118,16 @@
 			(justify left bottom)
 		)
 		(uuid "757fb6c5-b2bf-403c-a61d-f404eae63fd5")
+	)
+	(label "SWDIO"
+		(at 151.13 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76e3ee76-3bf9-4ebb-a5ca-51ffaecbbef9")
 	)
 	(label "M3.INHB"
 		(at 354.33 118.11 0)
@@ -6267,16 +6249,6 @@
 		)
 		(uuid "9dc90bc5-5e22-413b-92c5-d684bae24e02")
 	)
-	(label "USART1_RX"
-		(at 280.67 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a46d407d-1bb4-4342-9e1d-703ecacdce11")
-	)
 	(label "M1.INHC"
 		(at 168.91 181.61 0)
 		(effects
@@ -6347,6 +6319,16 @@
 		)
 		(uuid "b1140c1d-02ea-4618-9885-1d3700075119")
 	)
+	(label "~{RESET}"
+		(at 151.13 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3bb098b-5dc3-4d40-b64d-d3ded834d736")
+	)
 	(label "VBATT_SENSE"
 		(at 280.67 140.97 0)
 		(effects
@@ -6358,24 +6340,14 @@
 		(uuid "b428a2d4-9463-48eb-882e-2151fa90fd3b")
 	)
 	(label "SWCLK"
-		(at 151.13 43.18 180)
+		(at 151.13 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b8604c5f-9e64-441d-a7cc-865add58fc35")
-	)
-	(label "USART1_RX"
-		(at 151.13 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "baac200d-21da-475d-b253-75bcca9c6cff")
+		(uuid "bab38257-4ecb-4aaa-bc4c-ca6a96e29b73")
 	)
 	(label "M1.INHC"
 		(at 354.33 77.47 0)
@@ -6446,16 +6418,6 @@
 			(justify left bottom)
 		)
 		(uuid "dc7409dd-8ced-425a-85b7-2edd8caac3ca")
-	)
-	(label "SWO"
-		(at 151.13 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e682d0e8-535a-4bfa-bbfe-2b01e7dc0bb4")
 	)
 	(label "~{RESET}"
 		(at 160.02 105.41 180)
@@ -7023,9 +6985,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C12")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -7097,28 +7056,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 224.79 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 224.79 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "159ab33c-3797-4999-a5f9-3ef0e1c7d2d2")
 		)
@@ -7127,9 +7064,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP5")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -7212,9 +7146,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "R24")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -7375,9 +7306,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C49")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -7449,28 +7377,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 181.61 191.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 181.61 191.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "58b500b5-74a9-458c-8011-1fdc8753e70b")
 		)
@@ -7479,9 +7385,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP14")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -7553,28 +7456,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 224.79 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 224.79 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7f3da4e6-73ac-4bd8-8560-0f0eea46909b")
 		)
@@ -7583,9 +7464,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP9")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -7668,9 +7546,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "R22")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -7821,28 +7696,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 181.61 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 181.61 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0f62f37f-d670-4c41-996f-8f18b977853d")
 		)
@@ -7851,9 +7704,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP17")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -7936,9 +7786,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "SW1")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8021,9 +7868,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "R23")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8106,9 +7950,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C6")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8191,9 +8032,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C34")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8276,9 +8114,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C10")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8447,9 +8282,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "D3")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8532,9 +8364,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C8")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8617,9 +8446,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C32")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8691,28 +8517,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 181.61 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 181.61 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ae1e39f0-7074-4fb8-88e5-5afa645c15a1")
 		)
@@ -8721,9 +8525,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP13")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -8808,7 +8609,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_ST_STDC14")
+		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
 		(at 127 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -8830,7 +8631,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STDC"
+		(property "Value" "JTAG"
 			(at 115.57 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,7 +8642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical_SMD"
 			(at 127 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8852,7 +8653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
+		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
 			(at 118.11 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -8863,7 +8664,7 @@
 				)
 			)
 		)
-		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
+		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
 			(at 127 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8926,26 +8727,11 @@
 		(pin "7"
 			(uuid "7ad1b1b5-5ef6-460e-a796-71a64615c87c")
 		)
-		(pin "11"
-			(uuid "fe1487a0-7644-4ca4-a8a2-17cf457c744e")
-		)
-		(pin "12"
-			(uuid "a878a3e5-05e0-46b3-932f-4053d97376d6")
-		)
-		(pin "13"
-			(uuid "2abb0a49-4a07-473d-8744-54f60a8ab46c")
-		)
-		(pin "14"
-			(uuid "00b98bb8-3cac-451d-ac16-12edb782e319")
-		)
 		(instances
 			(project "board"
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "J10")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9017,28 +8803,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 224.79 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 224.79 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0ffd0781-aa8c-4ee1-9078-e6022d6b6587")
 		)
@@ -9047,9 +8811,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP22")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9192,17 +8953,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Epson"
-			(at 193.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "5c6ee6d6-9319-424c-8273-10f719c49ec8")
 		)
@@ -9220,9 +8970,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "Y1")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9305,9 +9052,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "R25")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9704,9 +9448,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "IC1")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9789,9 +9530,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C20")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -9799,7 +9537,6 @@
 	(symbol
 		(lib_id "power:+3V3")
 		(at 127 30.48 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9807,6 +9544,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "851ac741-92e2-4dee-8aab-8889bf961c55")
 		(property "Reference" "#PWR060"
 			(at 127 34.29 0)
@@ -10030,16 +9768,13 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C48")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 73.66 0)
+		(at 125.73 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10050,7 +9785,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c7064e4-a47e-4797-a3e1-97ba74fa83b4")
 		(property "Reference" "#PWR059"
-			(at 125.73 80.01 0)
+			(at 125.73 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10061,7 +9796,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 78.74 0)
+			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10072,7 +9807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 73.66 0)
+			(at 125.73 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10083,7 +9818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 73.66 0)
+			(at 125.73 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10094,7 +9829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 73.66 0)
+			(at 125.73 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10262,28 +9997,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 181.61 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 181.61 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "08c11622-21e7-43ee-b914-25b183a4c7ca")
 		)
@@ -10292,9 +10005,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP12")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10366,28 +10076,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 224.79 191.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 224.79 191.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f418f3e5-94a3-4228-ada6-2c20f6f420a9")
 		)
@@ -10396,9 +10084,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP6")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10470,28 +10155,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 224.79 201.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 224.79 201.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "704d21d8-4093-4ef0-8884-445a5b836fb8")
 		)
@@ -10500,9 +10163,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP8")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10591,9 +10251,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "D6")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10665,28 +10322,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 224.79 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 224.79 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9b9b90a1-6295-4a4b-9a3d-967fc1b69c8d")
 		)
@@ -10695,9 +10330,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP4")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10769,28 +10401,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 181.61 201.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 181.61 201.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e4c73b5c-92ce-4687-a46e-aed3b53889e9")
 		)
@@ -10799,9 +10409,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP16")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10891,9 +10498,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "D4")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -10976,9 +10580,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "SW2")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11129,28 +10730,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 224.79 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 224.79 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6f4608f3-4551-4f06-8e1f-7391e4744547")
 		)
@@ -11159,9 +10738,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP2")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11391,28 +10967,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 224.79 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 224.79 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "95ed4c56-1445-4c60-9759-aae8ba0fe2d6")
 		)
@@ -11421,9 +10975,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP3")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11585,9 +11136,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C18")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11670,9 +11218,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "C22")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11744,28 +11289,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 181.61 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 181.61 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6022908e-b798-4e4f-86fe-48a9a095b46f")
 		)
@@ -11774,9 +11297,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP10")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11848,28 +11368,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 181.61 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 181.61 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ad77677b-b9ef-4bea-9437-5f1c001a1d33")
 		)
@@ -11878,9 +11376,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP11")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -11952,28 +11447,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 181.61 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 181.61 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4a154645-8311-44b9-85f3-61e57d25964a")
 		)
@@ -11982,9 +11455,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP21")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12056,8 +11526,32 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 224.79 196.85 90)
+		(pin "1"
+			(uuid "19501760-4c49-4a51-8411-cf1a103fdb98")
+		)
+		(instances
+			(project "board"
+				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 140.97 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b40903-837a-4b07-be4d-f58129abbb25")
+		(property "Reference" "#PWR073"
+			(at 140.97 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12067,8 +11561,40 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Keystone"
-			(at 224.79 196.85 90)
+		(property "Value" "+3V3"
+			(at 140.97 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 140.97 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12079,16 +11605,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "19501760-4c49-4a51-8411-cf1a103fdb98")
+			(uuid "dd6eb089-a744-4c23-89eb-d610880b2740")
 		)
 		(instances
 			(project "board"
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
-					(reference "TP7")
+					(reference "#PWR073")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12160,28 +11683,6 @@
 				)
 			)
 		)
-		(property "MPN" "5019"
-			(at 181.61 196.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 181.61 196.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "690abb26-2ad3-4b18-88e3-ca95f40d233b")
 		)
@@ -12190,9 +11691,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "TP15")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12360,9 +11858,6 @@
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "D5")
 					(unit 1)
-					(variant
-						(name "CountingCurrentParts")
-					)
 				)
 			)
 		)
@@ -12440,6 +11935,88 @@
 			(project "board"
 				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdfee025-a227-420c-b9e3-8e02ec508d1e")
+		(property "Reference" "R33"
+			(at 143.51 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.51 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 139.192 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e8d0bf1-96ad-4a7d-8723-39f7f5163375")
+		)
+		(pin "2"
+			(uuid "eec31f67-f990-49e4-82be-2572a01d18d5")
+		)
+		(instances
+			(project "board"
+				(path "/be33a253-a895-4341-ac4c-f55475734dc2/b83b4a70-168d-43f7-945a-cdc4517d015c"
+					(reference "R33")
 					(unit 1)
 				)
 			)
