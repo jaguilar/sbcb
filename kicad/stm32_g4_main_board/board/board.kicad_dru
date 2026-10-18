@@ -1,1 +1,9 @@
 (version 1)
+
+(rule "SPI1 SCLK isolation (3w)"
+    (condition "A.NetName == '/SPI1.SCLK' && (B.NetName == '/SPI1.MISO' || B.NetName == '/SPI1.MOSI')")
+    (constraint clearance (min 0.45mm)))
+
+(rule "SPI1 SCLK isolation, breakout exemption"
+    (condition "(A.NetName == '/SPI1.SCLK' && (B.NetName == '/SPI1.MISO' || B.NetName == '/SPI1.MOSI')) && A.intersectsArea('Breakout*') && B.intersectsArea('Breakout*')")
+    (constraint clearance (min 0.15mm)))
